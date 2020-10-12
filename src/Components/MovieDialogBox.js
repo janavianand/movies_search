@@ -38,7 +38,7 @@ const MovieDialogBox = ({open,handleClose,movie,year}) => {
         <DialogContent>
           <DialogContentText>
             <div className={classes.imageWrapper} data-testid='dialogImage'>
-              <img src={poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : '/no-image-icon.png'} className={classes.imageStyles}></img>
+              <img src={poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : '/no-image-icon.png'} className={classes.imageStyles} alt='movie poster'></img>
             </div>
           <Typography component='div' className={classes.description} data-testid='dialogDescription'>DESCRIPTION : {overview}</Typography>
           <Typography component='div' className={classes.year} data-testid='dialogYear'>RELEASE YEAR : {year}</Typography>
