@@ -3,18 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-star-ratings": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "start_rewired": "react-app-rewired start",
+    "scenarios_chrome": "testcafe chrome scenarios/fixtures.js",
+    "scenarios_safari": "testcafe safari scenarios/fixtures.js",
+    "scenarios_firefox": "testcafe firefox scenarios/fixtures.js"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +38,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.1",
+    "customize-cra": "^1.0.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "react-app-rewired": "^2.1.6",
+    "testcafe": "^1.9.4"
   }
 }
