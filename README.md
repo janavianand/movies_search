@@ -21,3 +21,20 @@ REACT_APP_MOVIEDB_API_KEY = enter the api key for movie DB
 - `npm run scenarios_chrome`
 - `npm run scenarios_safari`
 - `npm run scenarios_firefox`
+
+### Extras
+- Updates Query string in URL
+- Can load a search page with query string in URL
+- Automated Tests
+- Movie Card Popup
+
+### Challenges
+
+- Since I have built similar apps before, it was smooth. What took some time was making it responsive.
+
+### To Do
+
+- Add more test
+- Handle errors and error page
+- More presentable UI
+- Dockerize the app
