@@ -1,5 +1,4 @@
 import React from 'react';
-import MovieCard from './Components/MovieCard';
 import Movies from './Components/Movies';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import { Typography } from '@material-ui/core';
@@ -37,8 +36,8 @@ function App() {
       </header>
       <Switch>
         <Route path='/search/movies' component={Movies}/>
-        <Route path='/:movieId' component={MovieCard}/>
         <Redirect path='/' to='/search/movies'/>
+        <Route path='*' render={()=><div>Route not found</div>}/>
       </Switch>
     </div>
   );

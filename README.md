@@ -10,7 +10,7 @@ REACT_APP_MOVIEDB_API_KEY = enter the api key for movie DB
 
 ```
 - in command line run
-` npm run start_rewired`
+`npm run start_rewired`
 
 ### To run tests
 
