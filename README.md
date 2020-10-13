@@ -18,9 +18,13 @@ REACT_APP_MOVIEDB_API_KEY = enter the api key for movie DB
 
 ### To run automated tests
 
-- `npm run scenarios_chrome`
-- `npm run scenarios_safari`
-- `npm run scenarios_firefox`
+- Start the server - `npm run start_rewired`
+- Then run the below commands to start the automated tests
+  - `npm run scenarios_chrome`
+  - `npm run scenarios_safari`
+  - `npm run scenarios_firefox`
+  #### Note
+  - Inorder to run the test in different browsers, the browser must be installed or available locally
 
 ### Extras
 - Updates Query string in URL
