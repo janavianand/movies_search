@@ -29,7 +29,7 @@ REACT_APP_MOVIEDB_API_KEY = enter the api key for movie DB
 
 ### Extras
 - Updates Query string in URL
-- Can load a search page with query string in URL
+- Can load a search page with query string in URL - http://localhost:3000/search/movies?qs=the
 - Automated Tests
 - Movie Card Popup
 
