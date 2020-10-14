@@ -43,3 +43,5 @@ REACT_APP_MOVIEDB_API_KEY = enter the api key for movie DB
 - Handle errors and error page
 - More presentable UI
 - Dockerize the app
+- ES lint and prettier setup
+
